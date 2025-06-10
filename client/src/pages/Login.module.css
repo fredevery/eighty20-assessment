@@ -1,0 +1,87 @@
+.pageContainer {
+    height: 100dvh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formContainer {
+    position: relative;
+    padding: 4rem;
+}
+
+.form {
+    /* border-image: url("/images/poke-border.png") 38 fill / 16px ; */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    &.submitting {
+        cursor: wait;
+
+        * {
+            cursor: wait;
+        }
+    }
+
+    .title {
+        font-size: 3rem;
+        text-align: center;
+        color: var(--color-dark);
+        margin-bottom: 1rem;
+    }
+
+    .field {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+
+        &::before {
+            content: "";
+            background-image: url("/images/focus-indicator.png");
+            background-size: contain;
+            height: 1rem;
+            width: 0.75rem;
+            display: block;
+            margin-left: -1.25rem;
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+
+        &:focus-within::before {
+            opacity: 1;
+        }
+    }
+
+    input {
+        background-color: transparent;
+        border: none;
+        border-bottom: 2px solid var(--color-dark);
+        font-size: 2.5rem;
+
+        &:focus {
+            outline: none;
+        }
+    }
+}
+
+.errorMessage {
+    font-size: 2rem;
+    position: absolute;
+    color: var(--color-error);
+    top: 100%;
+    left: 50%;
+    transform: translateY(-3rem) translateX(-50%);
+    min-width: 20rem;
+
+    .errorHeader {
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid currentcolor;
+    }
+
+    .errorDetail {
+        margin-top: 0.5rem;
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,11 @@
+.frameContainer {
+    border-image: url("/images/pokemon-window-frame.svg") 37% fill / 32px ;
+    padding: 3rem;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.frameContainerError {
+    border-image: url("/images/pokemon-window-frame-error.svg") 37% fill / 32px ;
+}

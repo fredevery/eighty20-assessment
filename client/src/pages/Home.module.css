@@ -1,0 +1,68 @@
+.homePage {
+    background-image: url("/images/battle-background.png");
+    background-size: auto 100%;
+    background-repeat: repeat-x;
+    width: 100vw;
+    height: 100dvh;
+    animation: backgroundSlide 100s linear infinite;
+}
+
+.pokemon {
+    width: 90vw;
+    max-width: 40rem;
+    aspect-ratio: 1;
+    background-image: url("/images/grass-patch.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    img {
+        width: 50%;
+        position: absolute;
+        left: 50%;
+        bottom: 10%;
+        transform: translateX(-50%);
+    }
+}
+
+.pokemonName {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    background-color: #FFF;
+    font-size: 3rem;
+    padding: 2rem;
+}
+
+.welcomeFrame {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    
+    .welcomeContent {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    h1, p {
+        font-size: 3rem;
+        line-height: 1.2;
+        margin: 0;
+    }
+}
+
+@keyframes backgroundSlide {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -10000% 0;
+    }
+}

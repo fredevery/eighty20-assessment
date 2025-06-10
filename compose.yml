@@ -1,0 +1,18 @@
+services:
+  client:
+    build: ./client
+    ports:
+      - "5173:5173"
+    volumes: 
+      - ./client:/code
+    working_dir: /code
+    command: npm run dev
+  
+  server:
+    build: ./server
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./server:/code
+    working_dir: /code
+    command: ./start.sh

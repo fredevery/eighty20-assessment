@@ -1,0 +1,75 @@
+:root {
+  --color-light: #F8F3F7;
+  --color-dark: #222;
+  --color-error: #B80000;
+}
+
+@font-face {
+  font-family:"Pokemon Pixel Font Regular";
+  src:
+    url("/fonts/pokemon_pixel_font.eot?") format("eot"),
+    url("/fonts/pokemon_pixel_font.woff") format("woff"),
+    url("/fonts/pokemon_pixel_font.ttf") format("truetype"),
+    url("/fonts/pokemon_pixel_font.svg#Pokemon-Pixel-Font") format("svg");
+  font-weight:normal;
+  font-style:normal;
+}
+
+
+* {
+  font-family: "Pokemon Pixel Font Regular", sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  image-rendering: pixelated;
+  font-smoothing: none;
+  font-size: 1rem;
+}
+
+button {
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    font-size: 2rem;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    
+    &[disabled] {
+      cursor: not-allowed;
+    }
+
+}
+
+@keyframes slide-up {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-down {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(100%);
+  }
+}
+
+::view-transition-old(.slide-down) {
+  animation: slide-up 0.5s ease-in-out;
+}
+
+::view-transition-new(.slide-up) {
+  animation: slide-up 0.5s ease-in-out;
+}

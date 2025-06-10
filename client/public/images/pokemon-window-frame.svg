@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 220 220" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <path d="M10,60L0,60L0,20L10,20L10,10L20,10L20,0L60,0L60,10L160,10L160,-0L200,-0L200,10L210,10L210,20L220,20L220,60L210,60L210,160L220,160L220,200L210,200L210,210L200,210L200,220L160,220L160,210L60,210L60,220L20,220L20,210L10,210L10,200L0,200L0,160L10,160L10,60Z" style="fill:rgb(248,243,247);"/>
+    <rect x="40" y="80" width="10" height="60" style="fill:rgb(34,0,28);"/>
+    <rect x="170" y="80" width="10" height="60" style="fill:rgb(34,0,28);"/>
+    <rect x="190" y="80" width="10" height="60" style="fill:rgb(34,0,28);"/>
+    <rect x="20" y="80" width="10" height="60" style="fill:rgb(34,0,28);"/>
+    <rect x="30" y="70" width="10" height="10" style="fill:rgb(34,0,28);"/>
+    <rect x="30" y="140" width="10" height="10" style="fill:rgb(34,0,28);"/>
+    <rect x="50" y="140" width="10" height="10" style="fill:rgb(34,0,28);"/>
+    <rect x="50" y="70" width="10" height="10" style="fill:rgb(34,0,28);"/>
+    <rect x="160" y="70" width="10" height="10" style="fill:rgb(34,0,28);"/>
+    <rect x="180" y="70" width="10" height="10" style="fill:rgb(34,0,28);"/>
+    <rect x="180" y="140" width="10" height="10" style="fill:rgb(34,0,28);"/>
+    <rect x="160" y="140" width="10" height="10" style="fill:rgb(34,0,28);"/>
+    <path d="M140,50L150,50L150,60L70,60L70,50L80,50L80,40L140,40L140,50Z" style="fill:rgb(34,0,28);"/>
+    <path d="M140,190L150,190L150,200L70,200L70,190L80,190L80,180L140,180L140,190Z" style="fill:rgb(34,0,28);"/>
+    <rect x="70" y="20" width="80" height="10" style="fill:rgb(34,0,28);"/>
+    <rect x="70" y="160" width="80" height="10" style="fill:rgb(34,0,28);"/>
+    <path d="M10,50L10,30L20,30L20,20L30,20L30,10L50,10L50,20L40,20L40,30L50,30L50,20L60,20L60,30L70,30L70,50L60,50L60,40L20,40L20,50L10,50ZM60,50L60,60L50,60L50,50L60,50ZM50,60L50,70L30,70L30,60L50,60ZM30,60L20,60L20,50L30,50L30,60ZM60,60L70,60L70,70L60,70L60,60Z" style="fill:rgb(34,0,28);"/>
+    <path d="M160,60L160,70L150,70L150,60L160,60ZM160,30L160,20L170,20L170,30L180,30L180,20L170,20L170,10L190,10L190,20L200,20L200,30L210,30L210,50L200,50L200,40L160,40L160,50L150,50L150,30L160,30ZM160,50L170,50L170,60L160,60L160,50ZM170,60L190,60L190,70L170,70L170,60ZM190,60L190,50L200,50L200,60L190,60Z" style="fill:rgb(34,0,28);"/>
+    <path d="M160,160L150,160L150,150L160,150L160,160ZM160,160L170,160L170,170L180,170L180,160L170,160L170,150L190,150L190,160L200,160L200,170L210,170L210,190L200,190L200,180L160,180L160,190L150,190L150,170L160,170L160,160ZM160,190L170,190L170,200L160,200L160,190ZM170,200L190,200L190,210L170,210L170,200ZM190,200L190,190L200,190L200,200L190,200Z" style="fill:rgb(34,0,28);"/>
+    <path d="M10,190L10,170L20,170L20,160L30,160L30,150L50,150L50,160L40,160L40,170L50,170L50,160L60,160L60,170L70,170L70,190L60,190L60,180L20,180L20,190L10,190ZM60,190L60,200L50,200L50,190L60,190ZM50,200L50,210L30,210L30,200L50,200ZM30,200L20,200L20,190L30,190L30,200ZM60,160L60,150L70,150L70,160L60,160Z" style="fill:rgb(34,0,28);"/>
+</svg>
